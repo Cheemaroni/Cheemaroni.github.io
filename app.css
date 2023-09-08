@@ -102,3 +102,7 @@ p {
 .update-box li {
     margin-bottom: 10px;
 }
+
+.highlighted {
+    color: rgb(0, 0, 0); 
+}
