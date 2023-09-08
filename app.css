@@ -71,12 +71,6 @@ p {
     line-height: 1.5;
     color: #000000;
 }
-.date {
-    color: rgb(121, 4, 4); 
-}
-.description {
-    color: rgb(0, 0, 0); 
-}
 
 /* Update Box */
 .update-box {
@@ -88,6 +82,13 @@ p {
     margin: 20px auto;
     padding: 20px;
 }
+.date {
+    color: rgb(121, 4, 4); 
+}
+.description {
+    color: rgb(0, 0, 0); 
+}
+
 
 .update-box h2 {
     font-size: 24px;
