@@ -1,5 +1,10 @@
-/* app.css */
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
 
+/* Global styles */
 body {
     background-image: url('workdamnit.png');
     background-size: cover;
@@ -7,11 +12,10 @@ body {
     background-attachment: fixed;
     background-color: maroon;
     color: white;
-    font-family: Georgia;
+    font-family: Georgia, serif;
 }
 
 h1 {
-    color: white;
     text-align: center;
 }
 
@@ -19,58 +23,56 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
+
+/* About Me Box */
 .about-me-box {
     background-color: #f9d5e1;
     border: 1px solid #f9d5e1;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
-    max-width: 150px;
-    margin: 0; 
-    margin: 0 auto; 
-    box-shadow: 0 4px 6px rgba(1, 1, 1, 1);
+    max-width: 300px; /* Adjusted for better readability */
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(1, 1, 1, 0.4); /* Adjusted shadow */
 }
 
-h2 {
+.about-me-box h2 {
     font-size: 24px;
     color: #333;
 }
 
-p {
+.about-me-box p {
     font-size: 14px;
-    line-height: 1.0;
+    line-height: 1.5;
     color: #666;
 }
+
+/* Navigation */
 .navigation {
-  background-color: black;
+    background-color: black;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
     max-width: 300px;
     margin: 0;
-    float: left; 
-    margin-right: 20px; 
-    box-shadow: 0 4px 6px rgba(1, 1, 1, 1);
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0 4px 6px rgba(1, 1, 1, 0.4); /* Adjusted shadow */
 }
 
-h2 {
+.navigation h2 {
     font-size: 24px;
     color: #333;
 }
 
-p {
+.navigation p {
     font-size: 16px;
     line-height: 1.5;
     color: #666;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-}
 
+/* Update Box */
 .update-box {
     background-color: #ffffff;
     border: 1px solid #ccc;
