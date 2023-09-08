@@ -1,0 +1,9 @@
+body {
+    background-image: url('scary.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: maroon;
+    color: white;
+    font-family: Georgia;
+}
