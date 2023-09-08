@@ -69,7 +69,13 @@ p {
 .navigation p {
     font-size: 16px;
     line-height: 1.5;
-    color: #666;
+    color: #000000;
+}
+.date {
+    color: rgb(121, 4, 4); 
+}
+.description {
+    color: rgb(0, 0, 0); 
 }
 
 /* Update Box */
