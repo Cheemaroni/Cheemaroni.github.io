@@ -49,8 +49,8 @@ p {
 
 /* Navigation */
 .navigation {
-    background-color: black;
-    border: 1px solid #ccc;
+    background-color: #f9d5e1;
+    border: 1px solid #cf9d5e1cc;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
@@ -74,8 +74,8 @@ p {
 
 /* Update Box */
 .update-box {
-    background-color: #ffffff;
-    border: 1px solid #ccc;
+    background-color: #f9d5e1;
+    border: 1px solid #f9d5e1;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     max-width: 400px;
@@ -83,12 +83,11 @@ p {
     padding: 20px;
 }
 .date {
-    color: rgb(121, 4, 4); 
+    color: rgb(0, 0, 0); 
 }
 .description {
     color: rgb(0, 0, 0); 
 }
-
 
 .update-box h2 {
     font-size: 24px;
