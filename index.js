@@ -12,3 +12,4 @@ videoPlayer.addEventListener('pause', () => {
 videoPlayer.addEventListener('ended', () => {
     // Do something when the video ends
 });
+ 

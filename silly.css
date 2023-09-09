@@ -21,7 +21,7 @@ p {
     height: auto;
     margin: 0 auto;
     display: block;
-    border-top-right-radius: 0;
+    border-top-right-radius: 0; 
 }
 
 /* Style the line break */
