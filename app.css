@@ -102,10 +102,13 @@ p {
 /* Player Styles */
 .player-container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 0;
     padding: 20px;
+    float: left; 
 }
 
-.video {
-    width: 150%;
+/* Style the video */
+video {
+    width: 100%; /* 
 }
+
