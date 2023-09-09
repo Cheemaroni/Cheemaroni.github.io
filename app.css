@@ -9,7 +9,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: maroon;
     color: white;
     font-family: Georgia, serif;
 }
@@ -100,6 +99,7 @@ p {
     color: rgb(0, 0, 0); 
 }
 
+/* Player Styles */
 .player-container {
     max-width: 640px;
     margin: 0 auto;
@@ -110,22 +110,16 @@ video {
     width: 100%;
 }
 
-/* Add your custom styling here */
-
-
 audio {
     width: 100%;
     max-width: 400px; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
 
 audio::-webkit-media-controls {
     background-color: #333;
     color: #fff;
-}
-
-audio {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
 }
