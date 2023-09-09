@@ -7,6 +7,7 @@ body {
     color: white;
     font-family: Georgia;
 }
+
 /* Style the audio player container */
 p {
     text-align: center;
@@ -16,16 +17,13 @@ p {
 /* Style the audio player */
 #audio-player {
     width: 100%;
-    max-width: 300px; /* Adjust the width as needed */
+    max-width: 300px; 
     height: auto;
     margin: 0 auto;
     display: block;
-    position: fixed;
-    border-top-right-radius: 0;
-    right: 0;
 }
 
 /* Style the line break */
 br {
-    margin-top: 10px; /* Adjust the spacing as needed */
+    margin-top: 10px; 
 }
