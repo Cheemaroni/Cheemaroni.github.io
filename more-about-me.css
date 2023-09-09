@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96de039493ccc29a4a69b6e2edd464c06c404b93ecd08b4379401b1addb6c934
-size 338
+body {
+    background-image: url('sh4.png.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: maroon;
+    color: white;
+    font-family: Georgia;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}

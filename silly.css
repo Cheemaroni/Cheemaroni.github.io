@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1cd811e0f23124faf0e27c9f9d329007961b78b7cbecf3f63b1cb84e22fd961d
-size 623
+body {
+    background-image: url('scary.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: maroon;
+    color: white;
+    font-family: Georgia;
+}
+
+/* Style the audio player container */
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the audio player */
+#audio-player {
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-top-right-radius: 0;
+}
+
+/* Style the line break */
+br {
+    margin-top: 10px; 
+}

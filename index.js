@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:596f3d367a49f282ced40c58a80f3f68d38817d69330bf5fb1f3196223470d1c
-size 415
+const videoPlayer = document.getElementById('videoPlayer');
+
+// Add event listeners for player controls (optional)
+videoPlayer.addEventListener('play', () => {
+    // Do something when the video starts playing
+});
+
+videoPlayer.addEventListener('pause', () => {
+    // Do something when the video is paused
+});
+
+videoPlayer.addEventListener('ended', () => {
+    // Do something when the video ends
+});

@@ -1,3 +1,71 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fcf44728f2f34f4d9d21376e2b6e6e5cc9e4fe40a7d9561fac5327c36741239a
-size 3063
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabs Gaming Palace</title>
+    <link rel="stylesheet" href="app.css">
+    <script>
+        window.onload = function () {
+            function incrementVisitorCount() {
+                if (localStorage.getItem('visitorCount')) {
+                    let count = parseInt(localStorage.getItem('visitorCount'));
+                    count++;
+                    localStorage.setItem('visitorCount', count);
+                } else {
+                    localStorage.setItem('visitorCount', 1);
+                }
+
+                const count = parseInt(localStorage.getItem('visitorCount'));
+                document.getElementById('visitorCount').textContent = count;
+            }
+            incrementVisitorCount();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center; font-size: 45px; color: #5B0000;">Welcome to the Basement</h2>
+    </header>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="moreaboutme.html">More About Me</a></li>
+            <li><a href="services.html">Services</a></li>
+            </li>
+        </ul>
+    </nav>
+    <body>
+        <div class="player-container">
+            <video id="videoPlayer" controls>
+                <source src="sillyyyy.mp4" type="video/mp4">
+            </video>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    <main>
+        <div class="about-me-box">
+            <h2 style="color: maroon;">What's the Purpose of This?</h2>
+            <p style="text-align: center; font-size: 17px; color: maroon;">
+                Hello there! I'm Gab, and I'm excited to introduce you to my new website, a dedicated space where I share my passions, hobbies, and my journey in progression with them, complete with reviews. This platform also serves as an opportunity for me to dive deeper into HTML coding and also to just be silly goofy with creating things. I'd also like to connect my Twitch and YouTube accounts, potentially expanding my follower base. If you decide to explore my page, I hope you find some of my content enjoyable! ☆⌒(≧▽​° )
+            </p>
+        </div>
+        <div class="update-box">
+            <h2 style="color: maroon;">Updates owo!</h2>
+            <ul>
+                <ul>
+                    <li class="highlighted">Created 9-7-23: Two Boxes. New Page.</li>
+                    <li class="highlighted">Created 9-8-23: Changed the color design for the boxes. Created "silly" page. Added linked image to that page. Fixed up the Update bpx as well. Eepy</li>
+                </ul>
+                
+            </ul>
+        </div>
+    </main>
+    <a href="sillypage.html">
+        <img src="mewo.png" alt="Click me (>ᴗ•)">
+    </a>
+    <footer>
+        <p>&copy; 2023 Gabs Gaming Palace</p>
+    </footer>
+</body> 
+</html>
