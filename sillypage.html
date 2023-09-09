@@ -1,29 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabs Gaming Palace</title>
-    <link rel="stylesheet" href="silly.css">
-</head>
-<body>
-    <p>
-        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;">
-            <source src="Silence Teaches You How to Sing good piano.mp3" type="audio/mpeg">
-            <source src="Silence Teaches You How to Sing piano off.mp3" type="audio/mpeg">
-        </audio>
-        <br>
-        <script>
-            var loopLimit = 5;
-            var loopCounter = 0;
-            document.getElementById('loop-limited').addEventListener('ended', function () {
-                if (loopCounter < loopLimit) {
-                    this.currentTime = 0;
-                    this.play();
-                    loopCounter++;
-                }
-            }, false);
-        </script>
-    </p>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f45a01fe491394017980a51b2ec461518cc73f63a0c1c0b48d99216e4e079a31
+size 990
