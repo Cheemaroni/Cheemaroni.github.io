@@ -7,3 +7,25 @@ body {
     color: white;
     font-family: Georgia;
 }
+/* Style the audio player container */
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the audio player */
+#audio-player {
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    position: fixed;
+    border-top-right-radius: 0;
+    right: 0;
+}
+
+/* Style the line break */
+br {
+    margin-top: 10px; /* Adjust the spacing as needed */
+}
