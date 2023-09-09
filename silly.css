@@ -62,3 +62,17 @@ br {
     line-height: 1.5;
     color: #000000;
 }
+
+.horizontal-box {
+    width: 100%; /* Full width of the parent container */
+    background-color: #202020; /* Background color */
+    padding: 20px; /* Padding to create space around the text */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Style for the text within the container */
+.horizontal-box p {
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Font size */
+    color: #dddddd; /* Text color */
+}
