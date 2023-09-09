@@ -111,3 +111,21 @@ video {
 }
 
 /* Add your custom styling here */
+
+
+audio {
+    width: 100%;
+    max-width: 400px; 
+}
+
+audio::-webkit-media-controls {
+    background-color: #333;
+    color: #fff;
+}
+
+audio {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
