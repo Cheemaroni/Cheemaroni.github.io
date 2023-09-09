@@ -110,16 +110,3 @@ video {
     width: 100%;
 }
 
-audio {
-    width: 100%;
-    max-width: 400px; 
-    position: fixed;
-    border-top-right-radius: 0;
-    right: 0;
-    z-index: -1;
-}
-
-audio::-webkit-media-controls {
-    background-color: #333;
-    color: #fff;
-}
