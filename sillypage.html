@@ -6,24 +6,4 @@
     <title>Gabs Gaming Palace</title>
     <link rel="stylesheet" href="silly.css">
 </head>
-<body>
-    <p>
-        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;">
-            <source src="Silence Teaches You How to Sing good piano.mp3" type="audio/mpeg">
-            <source src="Silence Teaches You How to Sing piano off.mp3" type="audio/mpeg">
-        </audio>
-        <br>
-        <script>
-            var loopLimit = 5;
-            var loopCounter = 0;
-            document.getElementById('loop-limited').addEventListener('ended', function() {
-                if (loopCounter < loopLimit) {
-                    this.currentTime = 0;
-                    this.play();
-                    loopCounter++;
-                }
-            }, false);
-        </script>
-    </p>
-</body>
-</html>
+

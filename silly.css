@@ -8,22 +8,3 @@ body {
     font-family: Georgia;
 }
 
-/* Style the audio player container */
-p {
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-/* Style the audio player */
-#audio-player {
-    width: 100%;
-    max-width: 300px; 
-    height: auto;
-    margin: 0 auto;
-    display: block;
-}
-
-/* Style the line break */
-br {
-    margin-top: 10px; 
-}
