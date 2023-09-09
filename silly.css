@@ -21,11 +21,9 @@ p {
     height: auto;
     margin: 0 auto;
     display: block;
-    /* position: fixed; */ /* Comment out this line if you want it in the regular content flow */
-    /* right: 0; */ /* Comment out this line if you want it in the regular content flow */
 }
 
 /* Style the line break */
 br {
-    margin-top: 10px; /* Adjust the spacing as needed */
+    margin-top: 10px; 
 }
