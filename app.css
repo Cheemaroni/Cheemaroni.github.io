@@ -99,3 +99,15 @@ p {
 .highlighted {
     color: rgb(0, 0, 0); 
 }
+
+.player-container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+}
+
+/* Add your custom styling here */
