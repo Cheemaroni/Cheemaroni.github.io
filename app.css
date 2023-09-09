@@ -101,11 +101,11 @@ p {
 
 /* Player Styles */
 .player-container {
-    max-width: 630px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .video {
-    width: 175%;
+    width: 150%;
 }
