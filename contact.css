@@ -18,10 +18,14 @@ p {
     line-height: 1.5;
 }
 
-/* Style for the container */
 .icon-bar {
     background-color: #0a0606; /* Background color of the icon bar */
     text-align: center; /* Center-align the icons */
+    
+    /* Custom border styles */
+    border: 2px solid #FFFFFF; /* Border style (2px width, white color) */
+    border-radius: 10px; /* Rounded border corners (adjust as needed) */
+    padding: 10px; /* Padding around the icon bar */
 }
 
 /* Style for the list */
