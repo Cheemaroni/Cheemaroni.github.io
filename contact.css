@@ -21,7 +21,22 @@ p {
 /* Style for the container */
 .icon-bar {
     background-color: #0a0606; /* Background color of the icon bar */
-    text-align: center; /* Center-align the icons */
+    text-align: left; /* Align icons and text to the left */
+    padding: 10px; /* Add padding around the icon bar */
+    position: fixed; /* Fixed position */
+    left: 0; /* Align to the left edge of the viewport */
+    top: 0; /* Align to the top edge of the viewport */
+}
+
+
+/* Style for the container */
+.icon-bar {
+    background-color: #0a0606; /* Background color of the icon bar */
+    text-align: left; /* Align icons and text to the left */
+    padding: 10px; /* Add padding around the icon bar */
+    position: fixed; /* Fixed position */
+    left: 0; /* Align to the left edge of the viewport */
+    top: 0; /* Align to the top edge of the viewport */
 }
 
 /* Style for the list */
@@ -35,16 +50,6 @@ p {
     border: 2px solid #FFFFFF; /* Border style (2px width, white color) */
     border-radius: 10px; /* Rounded border corners (adjust as needed) */
     padding: 10px; /* Padding around the icon bar */
-}
-
-.icon-bar {
-    background-color: #0a0606;
-    text-align: left;
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 /* Style for each icon and text */
