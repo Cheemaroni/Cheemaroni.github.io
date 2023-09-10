@@ -38,13 +38,13 @@ p {
 }
 
 .icon-bar {
-    background-color: #0a0606; /* Background color of the icon bar */
-    text-align: left; /* Align icons and text to the left */
-    padding: 10px; /* Add padding around the icon bar */
-    position: fixed; /* Fixed position to the left */
-    left: 0; /* Align to the left edge of the viewport */
-    top: 50%; /* Vertically center the icon bar */
-    transform: translateY(-50%); /* Adjust vertical positioning */
+    background-color: #0a0606;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /* Style for each icon and text */
