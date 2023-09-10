@@ -22,6 +22,27 @@ p {
     line-height: 1.5;
 }
 
+/* Style the audio player container */
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the audio player */
+#audio-player {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-top-right-radius: 0; 
+}
+
+/* Style the line break */
+br {
+    margin-top: 10px; 
+}
+
 /* About Me Box */
 .about-me-box {
     background-color: #f9d5e1;
