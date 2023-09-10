@@ -40,3 +40,29 @@ p {
     line-height: 1.5;
     color: #000000;
 }
+/* icon-bar */
+
+/* Style for the container */
+.icon-bar {
+    background-color: #0a0606; /* Background color of the icon bar */
+    text-align: center; /* Center-align the icons */
+}
+
+/* Style for the list */
+.icon-bar ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style for each icon */
+.icon-bar li {
+    display: inline-block; /* Display icons horizontally */
+    margin: 10px; /* Add spacing between icons */
+}
+
+/* Style for the icon images */
+.icon-bar img {
+    width: 40px; /* Adjust the width of the icons */
+    height: 40px; /* Adjust the height of the icons */
+    border-radius: 50%; /* Create rounded icons (optional) */
+}
