@@ -18,6 +18,7 @@ p {
     line-height: 1.5;
 }
 
+/* Style for the container */
 .icon-bar {
     background-color: #0a0606; /* Background color of the icon bar */
     text-align: center; /* Center-align the icons */
@@ -26,23 +27,12 @@ p {
     border: 2px solid #FFFFFF; /* Border style (2px width, white color) */
     border-radius: 10px; /* Rounded border corners (adjust as needed) */
     padding: 10px; /* Padding around the icon bar */
-}
+    
+    /* Display icons vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align icons horizontally */
 
-/* Style for the list */
-.icon-bar ul {
-    list-style-type: none; /* Remove default list bullets */
-    padding: 0; /* Remove default padding */
-}
-
-/* Style for each icon */
-.icon-bar li {
-    display: inline-block; /* Display icons horizontally */
+    /* Style for each icon */
     margin: 10px; /* Add spacing between icons */
-}
-
-/* Style for the icon images */
-.icon-bar img {
-    width: 40px; /* Adjust the width of the icons */
-    height: 40px; /* Adjust the height of the icons */
-    border-radius: 50%; /* Create rounded icons (optional) */
 }
