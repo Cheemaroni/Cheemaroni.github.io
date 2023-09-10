@@ -22,17 +22,39 @@ p {
 .icon-bar {
     background-color: #0a0606; /* Background color of the icon bar */
     text-align: center; /* Center-align the icons */
-    
-    /* Custom border styles */
+}
+
+/* Style for the list */
+.icon-bar ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+/* Custom border styles */
+.border {
     border: 2px solid #FFFFFF; /* Border style (2px width, white color) */
     border-radius: 10px; /* Rounded border corners (adjust as needed) */
     padding: 10px; /* Padding around the icon bar */
-    
-    /* Display icons vertically */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center-align icons horizontally */
+}
 
-    /* Style for each icon */
-    margin: 10px; /* Add spacing between icons */
+/* Style for each icon and text */
+.icon-bar li {
+    display: block; /* Display icons and text vertically */
+    margin: 10px 0; /* Add spacing between icons and text */
+}
+
+/* Style for the icon images */
+.icon-bar img {
+    width: 40px; /* Adjust the width of the icons */
+    height: 40px; /* Adjust the height of the icons */
+    border-radius: 50%; /* Create rounded icons (optional) */
+    margin-right: 10px; /* Add spacing between icons and text */
+}
+
+/* Style for the text next to the icons */
+.icon-bar span {
+    color: white; /* Text color */
+    font-size: 14px; /* Font size */
+    display: inline-block; /* Display text inline */
+    vertical-align: middle; /* Vertically align text with the icon */
 }
