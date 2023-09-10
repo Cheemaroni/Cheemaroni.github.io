@@ -31,7 +31,7 @@ p {
 
 /* Style for the container */
 .icon-bar {
-    background-color: #0a0606; /* Background color of the icon bar */
+    background-color: #f9d5e1; /* Background color of the icon bar */
     text-align: left; /* Align icons and text to the left */
     padding: 10px; /* Add padding around the icon bar */
     position: fixed; /* Fixed position */
