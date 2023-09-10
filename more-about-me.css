@@ -20,18 +20,7 @@ p {
 
 /* Style for the container */
 .icon-bar {
-    background-color: #0a0606; /* Background color of the icon bar */
-    text-align: left; /* Align icons and text to the left */
-    padding: 10px; /* Add padding around the icon bar */
-    position: fixed; /* Fixed position */
-    left: 0; /* Align to the left edge of the viewport */
-    top: 0; /* Align to the top edge of the viewport */
-}
-
-
-/* Style for the container */
-.icon-bar {
-    background-color: #0a0606; /* Background color of the icon bar */
+    background-color: #f9d5e1; /* Background color of the icon bar */
     text-align: left; /* Align icons and text to the left */
     padding: 10px; /* Add padding around the icon bar */
     position: fixed; /* Fixed position */
@@ -69,6 +58,6 @@ p {
 
 /* Style for the text next to the icons */
 .icon-bar span {
-    color: white; /* Text color */
+    color: maroon; /* Text color */
     font-size: 14px; /* Font size */
 }

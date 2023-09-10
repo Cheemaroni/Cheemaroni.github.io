@@ -47,7 +47,7 @@ p {
 
 /* Custom border styles */
 .border {
-    border: 2px solid #FFFFFF; /* Border style (2px width, white color) */
+    border: 2px solid #f9d5e1; /* Border style (2px width, white color) */
     border-radius: 10px; /* Rounded border corners (adjust as needed) */
     padding: 10px; /* Padding around the icon bar */
 }
@@ -69,6 +69,6 @@ p {
 
 /* Style for the text next to the icons */
 .icon-bar span {
-    color: white; /* Text color */
+    color: maroon; /* Text color */
     font-size: 14px; /* Font size */
 }
