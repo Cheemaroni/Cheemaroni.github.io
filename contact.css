@@ -39,14 +39,15 @@ p {
 
 /* Style for each icon and text */
 .icon-bar li {
-    display: block; /* Display icons and text vertically */
-    margin: 10px 0; /* Add spacing between icons and text */
+    display: flex; /* Display icons and text vertically */
+    align-items: center; /* Vertically center items */
+    margin: 10px; /* Add spacing between icons and text */
 }
 
 /* Style for the icon images */
 .icon-bar img {
-    width: 40px; /* Adjust the width of the icons */
-    height: 40px; /* Adjust the height of the icons */
+    width: 30px; /* Adjust the width of the icons */
+    height: 30px; /* Adjust the height of the icons */
     border-radius: 50%; /* Create rounded icons (optional) */
     margin-right: 10px; /* Add spacing between icons and text */
 }
