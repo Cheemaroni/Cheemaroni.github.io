@@ -37,11 +37,21 @@ p {
     padding: 10px; /* Padding around the icon bar */
 }
 
+.icon-bar {
+    background-color: #0a0606; /* Background color of the icon bar */
+    text-align: left; /* Align icons and text to the left */
+    padding: 10px; /* Add padding around the icon bar */
+    position: fixed; /* Fixed position to the left */
+    left: 0; /* Align to the left edge of the viewport */
+    top: 50%; /* Vertically center the icon bar */
+    transform: translateY(-50%); /* Adjust vertical positioning */
+}
+
 /* Style for each icon and text */
 .icon-bar li {
-    display: flex; /* Display icons and text vertically */
+    display: flex; /* Use flexbox to align items vertically */
     align-items: center; /* Vertically center items */
-    margin: 10px; /* Add spacing between icons and text */
+    margin-bottom: 10px; /* Add spacing between icons and text */
 }
 
 /* Style for the icon images */
@@ -56,6 +66,4 @@ p {
 .icon-bar span {
     color: white; /* Text color */
     font-size: 14px; /* Font size */
-    display: inline-block; /* Display text inline */
-    vertical-align: middle; /* Vertically align text with the icon */
 }
