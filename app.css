@@ -138,6 +138,21 @@ br {
 .highlighted {
     color: rgb(0, 0, 0);
 }
+/* Style the scrollable text box */
+.scrollable-text-box {
+    width: 100%;
+    max-height: 150px; /* Set the maximum height for scrolling */
+    overflow: auto; /* Enable scrolling */
+    border: 1px solid #ccc; /* Add a border */
+    padding: 10px; /* Add padding to the text box */
+    font-size: 14px;
+}
+
+/* Style for the "highlighted" class in your list items */
+.update-box .highlighted {
+    color: maroon;
+    font-weight: bold;
+}
 
 /* Player Styles */
 .player-container {
