@@ -18,6 +18,16 @@ p {
     line-height: 1.5;
 }
 
+/* Style the audio player container */
+#audio-player {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-top-right-radius: 0; 
+}
+
 /* Style for the container */
 .icon-bar {
     background-color: #f9d5e1; /* Background color of the icon bar */

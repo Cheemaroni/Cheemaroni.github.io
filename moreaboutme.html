@@ -9,6 +9,23 @@
 <body>
 <header>
 <h2 style="text-align: center; font-size: 45px; color: #5B0000;">Welcome to the More About Meeeeee(づ ◕‿◕ )づ</h2>
+<p>
+    <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
+        <source src="Nostalgia.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <script>
+        var loopLimit = 5;
+        var loopCounter = 0;
+        document.getElementById('loop-limited').addEventListener('ended', function () {
+            if (loopCounter < loopLimit) {
+                this.currentTime = 0;
+                this.play();
+                loopCounter++;
+            }
+        }, false);
+    </script>
+</p>
 <nav>
 <!-- Navigation Bar -->
 <div class="icon-bar">
