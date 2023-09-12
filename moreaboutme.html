@@ -5,34 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabs Gaming Palace</title>
     <link rel="stylesheet" href="more-about-me.css">
+    <link rel="icon" href="hehe meow.png" type="image/png"> <!-- Favicon link -->
   </head>
   <body>
     <header>
       <h2 style="text-align: center; font-size: 45px; color: #5B0000;">Welcome to the More About Meeeeee(づ ◕‿◕ )づ</h2>
       <nav>
-        <<div class="widget-wrapper">
-    <div class="widget-container">
-        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-        <div class="elfsight-app-50bff9a9-1e99-4e3d-b464-3457440e1afd"></div>
-    </div>
-  </div>
-  <p>
-    <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
-        <source src="Nostalgia.mp3" type="audio/mpeg">
-    </audio>
-</p>
-<script>
-    var loopLimit = 5;
-    var loopCounter = 0;
-    document.getElementById('loop-limited').addEventListener('ended', function () {
-        if (loopCounter < loopLimit) {
-            this.currentTime = 0;
-            this.play();
-            loopCounter++;
-        }
-    }, false);
-</script>
-        <!-- Navigation Bar --> 
+        <!-- Navigation Bar -->
         <div class="icon-bar">
           <ul>
             <li>
@@ -58,5 +37,27 @@
         </div>
       </nav>
     </header>
+    <div class="widget-wrapper">
+      <div class="widget-container">
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-50bff9a9-1e99-4e3d-b464-3457440e1afd"></div>
+      </div>
+    </div>
+    <p>
+      <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
+        <source src="Nostalgia.mp3" type="audio/mpeg">
+      </audio>
+    </p>
+    <script>
+      var loopLimit = 5;
+      var loopCounter = 0;
+      document.getElementById('loop-limited').addEventListener('ended', function () {
+        if (loopCounter < loopLimit) {
+          this.currentTime = 0;
+          this.play();
+          loopCounter++;
+        }
+      }, false);
+    </script>
   </body>
 </html>
