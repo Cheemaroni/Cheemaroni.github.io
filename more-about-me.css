@@ -70,9 +70,13 @@ p {
     padding: 10px;
 }
 
-
-/* Add this to your CSS file */
 .hobbies-border {
+    border: 2px solid maroon; /* Customize the border style */
+    padding: 20px; /* Add some padding to create space around the content */
+    margin: 20px; /* Add margin to separate it from other sections */
+}
+
+.introduction-border {
     border: 2px solid maroon; /* Customize the border style */
     padding: 20px; /* Add some padding to create space around the content */
     margin: 20px; /* Add margin to separate it from other sections */
