@@ -1,19 +1,16 @@
-body, h1, p {
-    margin: 0;
-    padding: 0;
-}
-
 /* Global styles */
 body {
-    background-image: url('plzwork.png');
+    background-image: url('sh4.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: maroon;
+    background-color: maroon;
+    color: white;
     font-family: Georgia, serif;
 }
 
 h1 {
+    color: white;
     text-align: center;
 }
 
@@ -22,51 +19,7 @@ p {
     line-height: 1.5;
 }
 
-/* Style the audio player container */
-p {
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-/* Style the audio player */
-#audio-player {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    border-top-right-radius: 0;
-}
-
-/* Style the line break */
-br {
-    margin-top: 10px;
-}
-
-/* About Me Box */
-.about-me-box {
-    background-color: #f9d5e1;
-    border: 1px solid #f9d5e1;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    max-width: 350px;
-    margin: 0 auto;
-    box-shadow: 0 4px 6px rgba(1, 1, 1, 0.4);
-}
-
-.about-me-box h2 {
-    font-size: 24px;
-    color: #333;
-}
-
-.about-me-box p {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #666;
-}
-
-/* Style for the container */
+/* Icon bar styles */
 .icon-bar {
     background-color: #f9d5e1;
     text-align: left;
@@ -76,10 +29,27 @@ br {
     top: 0;
 }
 
-/* Style for the list */
 .icon-bar ul {
     list-style-type: none;
     padding: 0;
+}
+
+.icon-bar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-bar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-bar span {
+    color: maroon;
+    font-size: 14px;
 }
 
 /* Custom border styles */
@@ -89,90 +59,16 @@ br {
     padding: 10px;
 }
 
-/* Style for each icon and text */
-.icon-bar li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+/* Style to make the embedded widget smaller */
+.elfsight-app-50bff9a9-1e99-4e3d-b464-3457440e1afd {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Style for the icon images */
-.icon-bar img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-/* Style for the text next to the icons */
-.icon-bar span {
-    color: maroon;
-    font-size: 14px;
-}
-
-/* Update Box */
-.update-box {
-    background-color: #f9d5e1;
-    border: 1px solid #f9d5e1;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 20px;
-}
-
-.update-box h2 {
-    font-size: 23px;
-    margin-bottom: 10px;
-}
-
-.update-box ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.update-box li {
-    margin-bottom: 10px;
-}
-
-.highlighted {
-    color: rgb(0, 0, 0);
-}
-/* Style the scrollable text box */
-.scrollable-text-box {
-    width: 100%;
-    max-height: 150px; /* Set the maximum height for scrolling */
-    overflow: auto; /* Enable scrolling */
-    border: 1px solid #000000; /* Add a border */
-    padding: 10px; /* Add padding to the text box */
-    font-size: 14px;
-}
-
-/* Style for the "highlighted" class in your list items */
-.update-box .highlighted {
-    color: maroon;
-    font-weight: bold;
-}
-
-/* Player Styles */
-.player-container {
-    max-width: 400px;
-    margin: 0;
-    padding: 20px;
-    float: right;
-}
-
-/* Style the iframe container */
-.iframe-container {
+/* Style the widget wrapper to position it to the right side */
+.widget-wrapper {
+    max-width: 100%;
     position: absolute;
-    top: 10px; /* Adjust the top position to place it at the desired vertical position */
-    right: 10px; /* Adjust the right position to place it at the right side */
-    width: 300px; /* Set the width to make it square */
-    height: 1000px; /* Set the height to make it square */
-}
-
-/* Style the iframe */
-iframe {
-    width: 100%;
-    height: 100%;
+    top: 0;
+    right: 0; /* Adjust this value to control the distance from the right side */
 }
