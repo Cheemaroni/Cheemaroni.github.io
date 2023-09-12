@@ -70,16 +70,4 @@ p {
     padding: 10px;
 }
 
-/* Style to make the embedded widget smaller */
-.elfsight-app-50bff9a9-1e99-4e3d-b464-3457440e1afd {
-    max-width: 100%;
-    height: auto;
-}
 
-/* Style the widget wrapper to position it to the right side */
-.widget-wrapper {
-    max-width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0; /* Adjust this value to control the distance from the right side */
-}
