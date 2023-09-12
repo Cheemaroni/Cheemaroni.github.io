@@ -15,7 +15,23 @@
         <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
         <div class="elfsight-app-50bff9a9-1e99-4e3d-b464-3457440e1afd"></div>
     </div>
-</div>
+  </div>
+  <p>
+    <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
+        <source src="Nostalgia.mp3" type="audio/mpeg">
+    </audio>
+</p>
+<script>
+    var loopLimit = 5;
+    var loopCounter = 0;
+    document.getElementById('loop-limited').addEventListener('ended', function () {
+        if (loopCounter < loopLimit) {
+            this.currentTime = 0;
+            this.play();
+            loopCounter++;
+        }
+    }, false);
+</script>
         <!-- Navigation Bar --> 
         <div class="icon-bar">
           <ul>

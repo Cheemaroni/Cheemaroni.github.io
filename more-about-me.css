@@ -1,5 +1,6 @@
+/* Global styles */
 body {
-    background-image: url('sh4.png'); 
+    background-image: url('sh4.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,53 +22,64 @@ p {
 /* Style the audio player container */
 #audio-player {
     width: 100%;
-    max-width: 300px; 
+    max-width: 300px;
     height: auto;
     margin: 0 auto;
     display: block;
-    border-top-right-radius: 0; 
+    border-top-right-radius: 0;
 }
 
-/* Style for the container */
+/* Icon bar styles */
+
 .icon-bar {
-    background-color: #f9d5e1; /* Background color of the icon bar */
-    text-align: left; /* Align icons and text to the left */
-    padding: 10px; /* Add padding around the icon bar */
-    position: fixed; /* Fixed position */
-    left: 0; /* Align to the left edge of the viewport */
-    top: 0; /* Align to the top edge of the viewport */
+    background-color: #f9d5e1;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 
-/* Style for the list */
 .icon-bar ul {
-    list-style-type: none; /* Remove default list bullets */
-    padding: 0; /* Remove default padding */
+    list-style-type: none;
+    padding: 0;
+}
+
+.icon-bar li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-bar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-bar span {
+    color: maroon;
+    font-size: 14px;
 }
 
 /* Custom border styles */
 .border {
-    border: 2px solid #FFFFFF; /* Border style (2px width, white color) */
-    border-radius: 10px; /* Rounded border corners (adjust as needed) */
-    padding: 10px; /* Padding around the icon bar */
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-/* Style for each icon and text */
-.icon-bar li {
-    display: flex; /* Use flexbox to align items vertically */
-    align-items: center; /* Vertically center items */
-    margin-bottom: 10px; /* Add spacing between icons and text */
+/* Style to make the embedded widget smaller */
+.elfsight-app-50bff9a9-1e99-4e3d-b464-3457440e1afd {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Style for the icon images */
-.icon-bar img {
-    width: 30px; /* Adjust the width of the icons */
-    height: 30px; /* Adjust the height of the icons */
-    border-radius: 50%; /* Create rounded icons (optional) */
-    margin-right: 10px; /* Add spacing between icons and text */
-}
-
-/* Style for the text next to the icons */
-.icon-bar span {
-    color: maroon; /* Text color */
-    font-size: 14px; /* Font size */
+/* Style the widget wrapper to position it to the right side */
+.widget-wrapper {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0; /* Adjust this value to control the distance from the right side */
 }
