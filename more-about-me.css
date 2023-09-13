@@ -40,7 +40,7 @@ p {
     top: 0;
 }
 
-.icon-bar ul {
+.icon-bar ul { 
     list-style-type: none;
     padding: 0; 
 }
@@ -80,4 +80,8 @@ p {
     border: 2px solid maroon; /* Customize the border style */
     padding: 20px; /* Add some padding to create space around the content */
     margin: 20px; /* Add margin to separate it from other sections */
+}
+#gaming-container {
+  border: 2px solid #000; /* Add border styles as desired */
+  padding: 20px; /* Add padding to create space between the border and content */
 }
