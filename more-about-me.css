@@ -42,7 +42,7 @@ p {
 
 .icon-bar ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0; 
 }
 
 .icon-bar li {
