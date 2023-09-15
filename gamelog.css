@@ -5,8 +5,9 @@ body {
     background-attachment: fixed;
     background-color: maroon;
     color: white;
-    font-family: Georgia;
+    font-family: Georgia, serif; /* Added serif as a generic font */
 }
+
 
 h2 {
     text-align: center;
