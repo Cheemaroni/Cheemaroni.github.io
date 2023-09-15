@@ -11,20 +11,20 @@
     <h2 style="text-align: center; font-size: 45px; color: #5B0000;">Gamelog</h2>
     <p>
         <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
-            <source src="Sth1 Spring Yard Zone Mega Drive Version.mp3" type="audio.mpeg">
+            <source src="Sth1 Spring Yard Zone Mega Drive Version.mp3" type="audio/mpeg">
         </audio>
-    </p>
-    <script>
-        var loopLimit = 5;
-        var loopCounter = 0;
-        document.getElementById('loop-limited').addEventListener('ended', function () {
-            if (loopCounter < loopLimit) {
-                this.currentTime = 0;
-                this.play();
-                loopCounter++;
-            }
-        }, false);
-    </script>
+        <br>
+        <script>
+            var loopLimit = 5;
+            var loopCounter = 0;
+            document.getElementById('loop-limited').addEventListener('ended', function () {
+                if (loopCounter < loopLimit) {
+                    this.currentTime = 0;
+                    this.play();
+                    loopCounter++;
+                }
+            }, false);
+        </script>
     </p>
     <nav>
         <!-- Navigation Bar -->
