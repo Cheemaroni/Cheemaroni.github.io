@@ -1,0 +1,140 @@
+body {
+    background-image: url('abandon.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: maroon;
+    color: white;
+    font-family: Georgia;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #5B0000;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the audio player container */
+#audio-player {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-top-right-radius: 0;
+}
+
+/* Style for the container */
+.icon-bar {
+    background-color: #f9d5e1; /* Background color of the icon bar */
+    text-align: left; 
+    padding: 10px;
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+}
+
+/* Style for the list */
+.icon-bar ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+/* Custom border styles */
+.border {
+    border: 2px solid #f9d5e1; 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+/* Style for each icon and text */
+.icon-bar li {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+/* Style for the icon images */
+.icon-bar img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+/* Style for the text next to the icons */
+.icon-bar span {
+    color: maroon; 
+    font-size: 14px; 
+}
+ 
+
+
+
+
+
+
+.container {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.image-box {
+    flex: 1;
+    padding: 10px;
+}
+
+.game-image {
+    max-width: 100%; /* Adjust the max width to make the image fill its container */
+    height: auto;
+}
+ 
+.content-box {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0 0 0 10px; /* Adjust the right margin to create space between image and text */
+}
+
+.header-box { 
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-box {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.info-item {
+    margin-bottom: 5px;
+}
+
+.review-box {
+    padding: 10px 0;
+}
+
+.text {
+    margin-bottom: 5px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right; 
+}
+.game-image {
+    max-width: 600px; /* Adjust the max width to make the image smaller */
+    height: auto;
+}

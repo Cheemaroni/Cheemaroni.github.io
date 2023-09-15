@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hehe meow.png" type="image.png"> 
+    <title>Gabs Gaming Palace</title>
+    <link rel="stylesheet" href="gamelog.css"> 
+</head>
+<body>
+    <h2 style="text-align: center; font-size: 45px; color: #5B0000;">Gamelog</h2>
+    <p>
+        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
+            <source src="Sth1 Spring Yard Zone Mega Drive Version.mp3" type="audio.mpeg">
+        </audio>
+    </p>
+    <script>
+        var loopLimit = 5;
+        var loopCounter = 0;
+        document.getElementById('loop-limited').addEventListener('ended', function () {
+            if (loopCounter < loopLimit) {
+                this.currentTime = 0;
+                this.play();
+                loopCounter++;
+            }
+        }, false);
+    </script>
+    <nav>
+        <!-- Navigation Bar -->
+        <div class="icon-bar">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="result.png" alt="Home">
+                        <span>Home</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="moreaboutme.html">
+                        <img src="2479688_5686c.gif" alt="More About Me">
+                        <span>More About Me</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <img src="picmix.com_1748564.png" alt="Contact Info">
+                        <span>Contact Info</span> 
+                    </a>
+                </li>
+               <li>
+                    <a href="gamelog.html">
+                        <img src="Kirby.gif" alt="Game Log">
+                        <span>Game Log</span> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="image-box left">
+            <img src="Silent_Hill_2_Restless_Dreams_7_618x870.jpg" alt="Game Image" class="game-image"> 
+        </div>
+        <div class="content-box">
+            <div class="header-box">Silent Hill 4: Restless Dreams</div>
+            <div class="info-box">
+                <div class="info-item">by Konami</div>
+                <div class="info-item">Developed by Team Silent</div>
+                <div class="info-item">Released in Dec 20th, 2001</div>
+            </div>
+            <div class="review-box">
+                <div class="text">Review:</div>
+                <div class="text">ilent Hill 2: Restless Dreams is a haunting masterpiece that continues to grab players with its unique blend of psychological horror and interesting storytelling. At first when going in blind like I had did it was very funny to see the voice acting for this game and eventually make fun of it but actually going back and then listening to other players reviews opens up more to this deep, disturbed truth of James Sunderland's mind. The game's atmosphere is truly chilling, immersing players into this deep and desolate town surrounded in an unsettling fog. The attention to detail in the environment design is realy astounding, with dilapidated buildings, flickering lights, and a sense of eerie feelings that can keep you on edge throughout the experience. The game's sound design can add certain scares to the player but can become repetitive and laughable in certain moments pulling you away from the scariness of what situation you're in. For example I remember going down the Silent Hill Historical Society just getting puled away from the god damn bell CONSTANTLY RINGING. One of the interesting standouts of Silent Hill 2 would be how the story is told. You are thrown into different complex dialogues with many different characters leaving you crumbs every interaction forcing the player to piece together a story with all the different clues and details left in mobs or side character interactions. Though honestly at times the dialogue is SO FUNNY LIKE yes sometimes its nice and listening to MAry speak to James was the best dialogue I've seen in the whole game but with these other characters ESPECIALLY EDDIE WAS AWFUL. It was just very laughable and took me away from the scariness of my situation but eh at least it was funny bad and not bad bad.The storyline delves into themes of guilt, loss, and personal demons, creating a new form of psychological depth not particularly shown in video games or at least any games I've seen. The characters are well-developed and their motivations to act or explain their lives keep players engaged and eager to uncover the truth. The multiple endings add replay value, encouraging players to explore different choices and paths to fully grasp the full story or even create and interpret their own narrative. However, every game has its flaws. One of the major flaws that I couldn't get past would bet he controls. They can feel clunky and hard to work at times, leading to frustrating moments during intense encounters (lucky on normal mode its a bit easy to defeat these guys) but still very annoy how in every new area there WILL BE multiple mobs that you have to whack 15 times just to kill them. It eventually becomes a chore and takes away the whole horror experience. And while the dialogues shed insight of character development and story-telling it can come off as humorous and distracting (like i said before only making me laugh and make fun of the voice acting). Additionally, the game's graphics, while impressive for its time, haven't aged  the best, while others could see this as bad I kind of can enjoy the older graphics in certain parts since it adds a better environment to the game but these can also result in some visual inconsistencies. However these minor setbacks, does NOT change the overall experience with Silent Hill 2, it can even improve with you trying to desperately find the proper angles and controls while fighting mannequins or nurses and create an amusing gameplay. In short Silent Hill 2 does a interesting and well made job of creating a unparalleled atmosphere, psychological story telling, and captivating character developments while shedding the true light of these characters. You are shocked and confused by certain events and it leads you into wanting more. Despite minor drawbacks in controls and aging graphics, the game's strengths far outweigh its weaknesses, making it a must-play for anyone seeking an unforgettable journey into the depths of psychological horror. Especially the endings. I sobbed.</div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container">
+        <div class="image-box left">
+            <img src="Bully.jpg" alt="Game Image" class="game-image"> 
+        </div>
+        <div class="content-box">
+            <div class="header-box">Bully</div>
+            <div class="info-box">
+                <div class="info-item">Developed by Rockstar</div>
+                <div class="info-item">Released in Oct 17th, 2006</div>
+            </div>
+            <div class="review-box">
+                <div class="text">Review:</div>
+                <div class="text">(review)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
