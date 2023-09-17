@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Review Page</title>
+    <link rel="stylesheet" href="gamelogreview.css">
+</head>
+<body>
+
+
+    <p>
+        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
+            <source src="gamelogreview.html" type="audio/mpeg">
+        </audio>
+        <br>
+        <script>
+            var loopLimit = 5;
+            var loopCounter = 0;
+            document.getElementById('loop-limited').addEventListener('ended', function () {
+                if (loopCounter < loopLimit) {
+                    this.currentTime = 0;
+                    this.play();
+                    loopCounter++;
+                }
+            }, false);
+        </script>
+    </p>
+
+
+
+    <div class="container">
+        <nav class="side-nav">
+            <div class="icon-bar">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <img src="result.png" alt="Home">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="moreaboutme.html">
+                            <img src="2479688_5686c.gif" alt="More About Me">
+                            <span>More About Me</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <img src="picmix.com_1748564.png" alt="Contact Info">
+                            <span>Contact Info</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="gamelog.html">
+                            <img src="Kirby.gif" alt="Game Log">
+                            <span>Game Log</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <!-- Table of Contents -->
+            <div class="table-of-contents">
+                <h2>Game Reviews</h2>
+                <ul>
+                    <li><a href="#silent-hill-2">Silent Hill 2 Review</a></li>
+                    <li><a href="#red-dead-redemption-2">Red Dead Redemption 2 Review</a></li>
+                    <li><a href="#stardew-valley">Stardew Valley Review</a></li>
+                   <li><a href="#Lucius">Lucius Review</a></li>
+                   <li><a href="#The-Crooked-Man">The Crooked Man Review</a></li>
+                   <li><a href="#Portal">Portal</a></li>
+                   <li><a href="#Portal-2">Portal 2 Review</a></li>
+                   <li><a href="#Sally-Face">Sally Face Review</a></li>
+                   <li><a href="#Fallout-3">Fallout 3 Review</a></li>
+                   <li><a href="#Fallout-4">Fallout 4 Review</a></li>
+                   
+                </ul>
+            </div>
+        
+        <div class="content">
+            <div class="game-review" id="silent-hill-2">
+                <div class="game-info">
+                    <img src="Silent Hill 2 cover.jpg" alt="Game Cover 1">
+                    <h2 id="silent-hill-2">Silent Hill 2: Restless Dreams</h2>
+                    <p class="game-platform">Platform: PlayStaion 2</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                        Silent Hill 2: Restless Dreams is a haunting masterpiece that continues to grab players with its unique blend of psychological horror and interesting storytelling. At first when going in blind like I had did it was very funny to see the voice acting for this game and eventually make fun of it but actually going back and then listening to other players reviews opens up more to this deep, disturbed truth of James Sunderland's mind. The game's atmosphere is truly chilling, immersing players into this deep and desolate town surrounded in an unsettling fog. The attention to detail in the environment design is realy astounding, with dilapidated buildings, flickering lights, and a sense of eerie feelings that can keep you on edge throughout the experience. The game's sound design can add certain scares to the player but can become repetitive and laughable in certain moments pulling you away from the scariness of what situation you're in. For example I remember going down the Silent Hill Historical Society just getting puled away from the god damn bell CONSTANTLY RINGING. One of the interesting standouts of Silent Hill 2 would be how the story is told. You are thrown into different complex dialogues with many different characters leaving you crumbs every interaction forcing the player to piece together a story with all the different clues and details left in mobs or side character interactions. Though honestly at times the dialogue is SO FUNNY LIKE yes sometimes its nice and listening to MAry speak to James was the best dialogue I've seen in the whole game but with these other characters ESPECIALLY EDDIE WAS AWFUL. It was just very laughable and took me away from the scariness of my situation but eh at least it was funny bad and not bad bad.The storyline delves into themes of guilt, loss, and personal demons, creating a new form of psychological depth not particularly shown in video games or at least any games I've seen. The characters are well-developed and their motivations to act or explain their lives keep players engaged and eager to uncover the truth. The multiple endings add replay value, encouraging players to explore different choices and paths to fully grasp the full story or even create and interpret their own narrative. However, every game has its flaws. One of the major flaws that I couldn't get past would bet he controls. They can feel clunky and hard to work at times, leading to frustrating moments during intense encounters (lucky on normal mode its a bit easy to defeat these guys) but still very annoy how in every new area there WILL BE multiple mobs that you have to whack 15 times just to kill them. It eventually becomes a chore and takes away the whole horror experience. And while the dialogues shed insight of character development and story-telling it can come off as humorous and distracting (like i said before only making me laugh and make fun of the voice acting). Additionally, the game's graphics, while impressive for its time, haven't aged  the best, while others could see this as bad I kind of can enjoy the older graphics in certain parts since it adds a better environment to the game but these can also result in some visual inconsistencies. However these minor setbacks, does NOT change the overall experience with Silent Hill 2, it can even improve with you trying to desperately find the proper angles and controls while fighting mannequins or nurses and create an amusing gameplay. In short Silent Hill 2 does a interesting and well made job of creating a unparalleled atmosphere, psychological story telling, and captivating character developments while shedding the true light of these characters. You are shocked and confused by certain events and it leads you into wanting more. Despite minor drawbacks in controls and aging graphics, the game's strengths far outweigh its weaknesses, making it a must-play for anyone seeking an unforgettable journey into the depths of psychological horror. Especially the endings. I sobbed.
+                    </p>
+                    <p class="review-rating">Rating: 4.5/5</p>
+                </div>
+            </div>
+
+           <div class="game-review" id="red-dead-redemption-2">
+                <div class="game-info">
+                    <img src="RDR2 Cover.jpg" alt="Game Cover 2">
+                    <h2 id="Red-Dead-Redemption-2">Red Dead Redemption 2</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                       With all the rave and positive reviews from players talking highly on this anticipated game, I am incredibly disappointed with what I was met with. RDR2 is a open-world Wild West experience that is filled with a multitude of quests, side missions, and little leisure activities on the side. While the open-world and attention to details are greatly celebrated that is all overshadowed with its desperate attempt at realism. With the games focus on being realistic is commendable it often feels burdensome, turning a simple task into a chore (which is a common occurrence in rdr2). Whether it be managing Arthurs dead eye or health to your horses stamina, maintaining weapons, feeding the protagonist, or grooming your horse, these mundane activities quickly losing their appeal. I know for some these can be quite fun and immersive but personally for me I just didnt find it enjoyable or elaborate at all. The stories pacing is wildy inconsistent, with moments of intense action followed by prolonged periods of aimlessly wandering. With the missions I was so incredibly disappointed to see that Rockstar is babying us through simple missions like they did with GTA V. I don't know about you but I personally hate having my hand held when I'm trying to escape the law and told to go into certain areas to hide or navigate a certain path when escaping. It takes away all of the excitement and adrenaline when trying to find a way to escape or sneak into certain areas because why would I want to do it your way when my way is much more efficient and gratifying. I don't want to feel like my work is nothing when I'm told what to do and how to do it and if I DARE steer into my own path then the missioned is failed?? It's so fucking aggravating how Rockstar made these missions this way because, having it be your own way of completing it would be soo much more satisfying and would allow players to create interesting topic discussions for how THEY completed the mission. On the topic of missions I absolutely detest the side "missions" since they seem like full on fillers for their open-world game. They want to prove that its exciting by add these other side characters, making you do random shit that just constantly involves chasing or fighting to some extent its just continual , nonstop, stimulant with anything you do and I hate it so very very much man. They dont even bring anything fascinating to the game like oh okay now if I find fossil bones I can mail it to some bitch to get money? Really??? And then the stupid fucking random areas that are supposed to be all mysterious and have backstories of murders are so LAZYYY, like I get you really wanted to create this whole Wild West open-world experience but if you cant do it well while creating an intriguing grappling story then please stop making your quick cash grabs dude its just disappointing as fuck. With the main missions  my god are they predictable. These missions after awhile become so easy to read that there is simply no fun in them anymore. Its always the same shit of talk to someone, go ride somewhere with someone else, they talk about shit about the missions or a previous mission, we arrive and then some dumb fucking altercation occurs, then gun fight for NO REASON BESIDES THEY WANT TO CONTINUE THE STORY IN THE MOST LAZIEST WAY POSSIBLE, Like if was that seriously their best solution to pushing the story on? Random missions where it ends them shooting the town up and then leaving? Cause that some half-assed writing right there. I dreaded any main missions after chapter three because it was the same troupe drawled out over and over and over again I couldn't find any excitement or curiosity of what could happen next cause you just knew what would. It became an annoying chore rather than a fun exciting experience. While the characters have some depth, their development is frequently overshadowed by the pacing of this fucking game, leaving me so disconnected from showing any ounce of care for the characters. I don't know if some of these characters are made to be unlikeable but my god do I hate them, especially Dutch. He is so fucking dumb and deficient, I have no empathy or care for what he has to say at all and everything he opens his mouth all I want to do is shoot him in the fucking head cause HE ONLY TALKS TO ME WHEN HE WANTS SHIT. HOW AM I SUPPOSED TO CARE FOR THIS CHARACTER IF MOST OF OUR CONVERSATIONS IS VAGUELY TALKING ABOUT THE PAST AND HIM BARKING ORDERS AT ME. Like Jesus dude same with the other characters you arent given enough time to really get to know them or care for them and the times you do its when you are just sitting around and waiting for them to speak to you or one of the girls asking you whats been up lately, but even then you are still just talking about yourself. (SPOILER) When Lenny, Hosea, Bill, or Strauss died, it did not phase me at all (besides Lenny) but even then it was a little "aw I kinda liked him :(" moment. They brought no real depth in personality and I was not able to connect to them in any certain way possible unless it was to advance the story. Everything you were forced to do to advance the story was so incredibly obvious it too away so much excitement and curiosity I was so disappointed when I could seriously guess everything fucking thing that could happen. I do give credit in that yes RDR2 does a nice job in portraying the Wild West with its historical accuracy and the difficulty of a life in that era, and yes I know gun fights were frequent and they are subjected to that since they are in a game, but hat I don't like is it being used to continue a story. Like I said before its a lazy approach of story-telling. I would also like to talk about the awful inventory system. I get it wants to be realistic in the sense of you can only carry certain objects on you and you can stow away the others in the horse but picking up new guns should not make you completely ditch your others. I can't believe I cant just store my previous guns IN THE HORSE and have to DROP IT in order to get someone else. WHY? WHY WHY WHY???? Its so annoying navigating through that stupid scroll tab and then having different ammo types? Why? I don't get it dude. With these controls also man I don't know when Rockstar is going to get on the path of GOOD CONTROLS FOR THEIR FUCKING GAMES CAUSE I can be riding along with my horse on my controller and then it randomly just starts going the opposite direction??? Or it begins swerving in a completely different area from where I'm telling it to go. It was so bothersome having to switch to my controller and keyboard to just get in control of the fucking character. Also the stupid fucking law system is the worst SYSTEM EVER! WHY AM I GETTIN SHOT AT AND NO CONSEQUENCES HAPPEN TO THE NPCS BUT IF I FIGHT BACK THE LAW IS ON ME IMMEDIATELY?? It doesn't work dude this game just doesn't work and its so obnoxious when my horse doesn't want to listen to me and runs into a npcs I am gunned down once again. The good and bad karam system is usesless as hell unless you want some discounted items? Serves no other purpose than that, and its all just dumb and useless and fuck this game fuck you.  While the graphics and the vastness of the game world are undeniable achievements, they come at the cost of performance on many systems. Glitches, crashes, and frustratingly long loading screens screw up  the overall experience, making me question whether the graphical excellence was truly worth sacrificing stability for this game. I do sometimes enjoy the leisurely horse riding in a beautiful field while also trying to find any animals to collect and sell, that part can be quite enjoyable for a bit so good job on that Rockstar. I also wish that they had more side activities to do but with a game that big theres only so much you can add to it really, maybe should've slimmed down the world a bit honestly and focused a bit more on trying to keep the player entertained. But in conclusion RDR2 can be somewhat enjoyable to me in little parts here and there but its just completely overshadowed with how poorly made this game was, like seriously a huge disappointment I wish I never got the game and could play the first one honestly. I seriously had to stop at the beginning of chapter six cause i couldn't take it anymore man, I was losing it. ITS THE SAME SHIT OVER AND OVER AND OVER AGAIN. But whatever thats my review.
+                    </p>
+                    <p class="review-rating">Rating: 2/5</p>
+                </div>
+            </div>
+
+            <div class="game-review" id="stardew-valley">
+                <div class="game-info">
+                    <img src="Stardew Valley Cover.jpg" alt="Game Cover 3">
+                    <h2 class="Stardew-Valleyy">Stardew Valley</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                        Stardew Valley is a delightful farming sim that opens up unexpected story-telling and character developments and other activities when working on your farm and interacting with the NPCS. Even if the game may seem simplistic it challenges the player whether it be working on their farm, collecting resources, earning money, or creating new relationships. You are first greeted with a sense of endless possibilities of what you can accomplish when arriving at your grandfathers old farm and exposed to deserted and neglected farm. It can either be exciting or overwhelming depending on what type of person you are but trust me it does get easier once you get into the rhythm of farming. One of Stardews strongest aspects would be its skills system which includes mining, fishing, farming, foraging, and the crafting system. Whether you are interested in doing one of these activities specifically Stardew allows you to work on one thing at a time if that's how you prefer. With this variety it prevents you for getting disinterested in one task and allows the player to switch up and work on many different things during in-game day and can keep a fresh feeling and excitement when trying to complete a structure or the community center. With the games progression you gradually unlock new areas, tools, and abilities, providing satisfaction and a sense of accomplishment. Allowing the player to form relationships and letting the player see character development is a reward of itself. You are able to learn more about characters when entering their bedrooms or sharing a heart event strengthening your relationship and seeing a pleasant change in their attitudes and mindset, not only to you but others as well. It makes the players want to get to know these characters more and make time in their day to give them gifts and have pleasant friendly exchanges with them (plus the free random gifts are a nice plus). In Stardews world the festivals they host monthly can become quiet exciting to look forward to whether it be the gift exchange during the Feast of the Winter Star, where you are given a character to give a secret gift to or the Dance of the Moonlight Jellies, where you are able to experience a cute get together to close the ending of Summer with these glowing jellies seen by Louise's pier. It is a fun idea to have these festivals placed throughout the months to create a refreshing feeling of change when continuously farming. With these amazing qualities in the game there are a few downsides to it as well. The initial gameplay can be quite a learning curve to newcomers who haven't played any game such like this or not having any prior knowledge or experience to what this game is. It can definitely become overwhelming with the amount of information, choices available and lack of guidance given to you from the start. Then having to know when to plant crops, how to, how to protect them and so on. Though at first this is difficult to go through it does get easier with more experience and work put into the game (and research from their wiki). With getting used to the game and wanting to progress fast it will take a lot of time especially when you dont know exactly what to do at first. It can become very repetitive and boring (again when you just dont know what to do). After opening certain areas further into the game it definitely becomes harder with mobs having stronger attributes than the ones you are used to fighting and causes the player to have to carry more bomb items and health and hope theres enough time in the day to advance down a lot of levels in a short period of time while having to run away from these obnoxious ass mobs. Like seriously the Skull Cavern is so abhorrently annoying that I barley go into there anymore since, the thought of those dragons swooping at you constantly and multiple mummies you cant even kill swarming the area becomes so overbearing you just dont want to deal with it, but I digress. In summary Stardew Valley can be a very heartwarming, relaxing, and very addictive farming sim that can offer the player a kind of diverse experience. Its simple pixelated aesthetics with a relaxing calming soundtrack creates an overall sense of tranquility. I recommend playing this game if you'd like to escape into a charming rural world to create a homey atmosphere in your farm.
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+        
+        <div class="game-review">
+                 <div class="game-review" id="Lucius">
+                    <img src="Lucius Cover.jpg" alt="Game Cover 4">
+                    <h2 class="Lucius">Lucius</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                    
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+            
+             <div class="game-review">
+                 <div class="game-review" id="The-Crooked-Man">
+                    <img src="The crooked man cover.jpg" alt="Game Cover 5">
+                    <h2 class="The-Crooked-Man">The Crooked Man</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                    
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+            
+             <div class="game-review">
+                 <div class="game-review" id="Portal">
+                    <img src="Portal cover.jpg" alt="Game Cover 6">
+                    <h2 class="Portal">Portal</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                    
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+            
+             <div class="game-review">
+                 <div class="game-review" id="Portal-2">
+                    <img src="Portal 2 cover.jpg" alt="Game Cover 7">
+                    <h2 class="Portal-2">Portal 2</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                    
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+            
+             <div class="game-review">
+                 <div class="game-review" id="Sally-Face">
+                    <img src="Sally Face cover.jpg" alt="Game Cover 8">
+                    <h2 class="Sally-Face">Sally Face</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                    
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+        
+         <div class="game-review">
+                 <div class="game-review" id="Fallout-3">
+                    <img src="Fallout 3 cover.jpg" alt="Game Cover 9">
+                    <h2 class="Fallou-3">Fallout 3</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                    
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+            
+             <div class="game-review">
+                 <div class="game-review" id="Fallout-4">
+                    <img src="Fallout 4 cover.jpg" alt="Game Cover 10">
+                    <h2 class="Fallout-4">Fallout 4</h2>
+                    <p class="game-platform">Platform: PC</p>
+                </div>
+                <div class="game-details">
+                    <p class="review-text">
+                    
+                    </p>
+                    <p class="review-rating">Rating: 4/5</p>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </body>
+            </html>

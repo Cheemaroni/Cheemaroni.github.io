@@ -1,0 +1,132 @@
+body {
+    background-image: url('game collage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: maroon;
+    color: white;
+    font-family: Georgia, serif; /* Added serif as a generic font */
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    color: #5B0000;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the audio player container */
+#audio-player {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-top-right-radius: 0;
+}
+
+/* Style for the container */
+.icon-bar {
+    background-color: #f9d5e1; /* Background color of the icon bar */
+    text-align: left; 
+    padding: 10px;
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+}
+
+/* Style for the list */
+.icon-bar ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+}
+
+/* Custom border styles */
+.border {
+    border: 2px solid #f9d5e1; 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+/* Style for each icon and text */
+.icon-bar li {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+/* Style for the icon images */
+.icon-bar img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+/* Style for the text next to the icons */
+.icon-bar span {
+    color: maroon; 
+    font-size: 14px; 
+}
+ 
+
+
+
+
+
+
+/* Style the container */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the content */
+.content {
+    width: 80%;
+    padding: 0 20px;
+}
+
+
+.image-box {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Style each game review */
+.game-review {
+    background-color: gray;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.game-review img {
+    max-width: 100%;
+}
+
+.game-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.game-platform {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.review-text {
+    margin-top: 15px;
+}
+
+.review-rating {
+    font-weight: bold;
+    margin-top: 10px;
+}

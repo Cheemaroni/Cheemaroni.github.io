@@ -19,7 +19,19 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
+/* Header styles */
+.header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 2px solid #666;
+}
 
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 /* Style the audio player container */
 #audio-player {
     width: 100%;
@@ -30,6 +42,13 @@ p {
     border-top-right-radius: 0;
 }
 
+/* Introductory box styles */
+.intro-box {
+    margin: 20px auto; /* Center the box horizontally */
+    text-align: center;
+    padding: 20px;
+}
+
 /* Style for the container */
 .icon-bar {
     background-color: #f9d5e1; /* Background color of the icon bar */
@@ -38,6 +57,30 @@ p {
     position: fixed; 
     left: 0; 
     top: 0; 
+}
+
+/* Navigation styles */
+.side-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-nav li {
+    padding: 10px;
+}
+
+.side-nav a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation icon styles */
+.side-nav img {
+    max-width: 24px;
+    height: auto;
+    margin-right: 10px;
 }
 
 /* Style for the list */
@@ -138,4 +181,39 @@ p {
 .game-image {
     max-width: 600px; /* Adjust the max width to make the image smaller */
     height: auto;
+}
+
+
+
+/* Game box styles */
+.game-box {
+    margin: 10px; /* Add some spacing between game boxes */
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(20% - 25px); /* Set the width for each box, minus margin and padding */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #333; /* Add a background color to the game boxes */
+    border: 2px solid #666;
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.game-title {
+    font-size: 14px; /* Make the game title smaller */
+    margin-top: 10px; /* Add spacing between the title and other details */
+}
+
+.details-box {
+    font-size: 12px; /* Make the details smaller */
+    margin-top: 10px; /* Add spacing between details */
+}
+
+/* Add this CSS to change the font color of elements with the "label" and "value" classes */
+.label {
+    color: maroon; /* Change to your desired color */
+}
+
+.value {
+    color: maroon; /* Change to your desired color */
 }
