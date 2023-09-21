@@ -130,3 +130,12 @@ p {
     font-weight: bold;
     margin-top: 10px;
 }
+
+/* Add this CSS to change the font color of elements with the "label" and "value" classes */
+.label {
+    color: maroon; /* Change to your desired color */
+}
+
+.value {
+    color: maroon; /* Change to your desired color */
+}
