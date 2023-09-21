@@ -131,11 +131,17 @@ p {
     margin-top: 10px;
 }
 
-/* Add this CSS to change the font color of elements with the "label" and "value" classes */
-.label {
-    color: maroon; /* Change to your desired color */
-}
-
-.value {
-    color: maroon; /* Change to your desired color */
-}
+//*floating back to top*/
+#myBtn {
+    position: fixed;
+    top: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.35;
+    font-size: 18px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .6px;
+    border-radius: 8px;
+  }
+  
