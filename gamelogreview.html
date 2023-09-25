@@ -6,29 +6,26 @@
     <title>Gaming Review Page</title>
     <link rel="stylesheet" href="gamelogreview.css">
 </head>
+
+<p>
+    <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
+        <source src="little big planet.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <script>
+        var loopLimit = 5;
+        var loopCounter = 0;
+        document.getElementById('loop-limited').addEventListener('ended', function () {
+            if (loopCounter < loopLimit) {
+                this.currentTime = 0;
+                this.play();
+                loopCounter++;
+            }
+        }, false);
+    </script>
+</p>
+
 <body>
-
-
-    <p>
-        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
-            <source src="little big planet.mp3" type="audio/mpeg">
-        </audio>
-        <br>
-        <script>
-            var loopLimit = 5;
-            var loopCounter = 0;
-            document.getElementById('loop-limited').addEventListener('ended', function () {
-                if (loopCounter < loopLimit) {
-                    this.currentTime = 0;
-                    this.play();
-                    loopCounter++;
-                }
-            }, false);
-        </script>
-    </p>
-
-
-
     <div class="container">
         <nav class="side-nav">
             <div class="icon-bar">
@@ -59,7 +56,7 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav>  
         <button id="myBtn"><a href="#top" style="color; maroon">Top of Page</a></button>
         
         <div class="content">
@@ -204,7 +201,7 @@
                     <p class="review-text">
                     
                     </p>
-                    <p class="review-rating">Rating: 4/5</p>
+                    <p class="review-rating">Rating: 2.5/5</p>
                 </div>
             </div>
             

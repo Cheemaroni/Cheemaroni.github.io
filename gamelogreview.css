@@ -53,7 +53,7 @@ p {
     padding: 10px; 
 }
 
-/* Style for each icon and text */
+/* Style for each icon and text */  
 .icon-bar li {
     display: flex; 
     align-items: center; 
@@ -131,17 +131,16 @@ p {
     margin-top: 10px;
 }
 
-//*floating back to top*/
+/*floating back to top*/
 #myBtn {
-    position: fixed;
-    top: 10px;
-    float: right;
-    right: 18.5%;
-    left: 77.35;
-    font-size: 18px;
-    border-color: rgba(85, 85, 85, 0.2);
-    background-color: rgb(100,100,100);
-    padding: .6px;
-    border-radius: 8px;
-  }
-  
+  position: fixed;
+  top: 10px;
+  float: right;
+  right: 18.5%;
+  left: 77.35;
+  font-size: 18px;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: rgb(100,100,100);
+  padding: .6px;
+  border-radius: 8px;
+}
