@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hehe meow.png" type="image/png">
+    <link rel="stylesheet" href="music.css">
+    <title>Gabs Gaming Palace</title>
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center; font-size: 45px; color: #5B0000;">Music Hangout!</h2>
+    </header>
+    <nav>
+        <div class="icon-bar">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="result.png" alt="Home">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="moreaboutme.html">
+                        <img src="2479688_5686c.gif" alt="More About Me">
+                        <span>More About Me</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <img src="picmix.com_1748564.png" alt="Contact Info">
+                        <span>Contact Info</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="gamelog.html">
+                        <img src="Kirby.gif" alt="Game Log">
+                        <span>Game Log</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="music.html">
+                        <img src="kittybanjo.gif" alt="Music Hangout">
+                        <span>Music Hangout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div style="width:40px; height:40px; position:absolute; bottom:0px; left:0px;">
+	<div id="winamp-container"></div>
+    <script>
+const Winamp = window.Webamp;
+// All configuration options are optional.
+const webamp = new Webamp({
+    // Optional.
+    initialTracks: [
+        {
+            metaData: {
+                artist: "Bladee",
+                title: "Hero of My Story 3style3",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Bladee",
+                title: "Be Nice 2 Me",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Bladee",
+                title: "Reality Surf",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Bladee",
+                title: "Wickr Man",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Bladee",
+                title: "BBY",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Bladee",
+                title: "Dumpster Baby",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Bladee",
+                title: "Plastic Surgery",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Bladee",
+                title: "Who Goes There?",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Bladee",
+                title: "egobaby",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Bladee",
+                title: "LOVE STORY",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Bladee",
+                title: "ICARIUS 3REESTYLE",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Thaiboy Digital",
+                title: "Western Union",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Thaiboy Digital, Bladee",
+                title: "Still in Search of Sunshine",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Thaiboy Digital",
+                title: "Yin & Yang",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Bladee, 16yroid",
+                title: "I Choose to Be This Way",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Ecco2k",
+                title: "Peroxide",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Drain Gang Archive",
+                title: "Cover Up",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Oaf1, Casper",
+                title: "think ab it",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "its hard :/",
+                title: "oaf1",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "oaf1, Lain",
+                title: "whatever it takes",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Ezekiel",
+                title: "going quietly",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "meat computer",
+                title: "i feel like a dog",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "19bonsai",
+                title: "sacboy advntr",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "19bonsai",
+                title: "nthn",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "d0llywood1",
+                title: "ihonestlymightjustgiveup",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "David Shawty",
+                title: "Dacning on the Sidewalk Lights Flicker",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Sideshow",
+                title: "Sneaky Steps",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Sickboyrari",
+                title: "Blue",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Thouxanbanfauni",
+                title: "ULTRA VIOLET",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Thouxanbanfauni",
+                title: "AMERICAN MUSCLE",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Thouxanbanfauni",
+                title: "PARADOX",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Thouxanbanfauni",
+                title: "QUESTIONABLE MORTALITY",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Thouxanbanfauni",
+                title: "PARADOX",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Thouxanbanfauni",
+                title: "QUESTIONABLE MORALITY",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "jnhygs",
+                title: "XTAYALIVE ",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        }, {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        },
+      ],
+    initialSkin: {
+        url: "https://skins.webamp.org/skin/940652f10b828b3d4985103a79794e0a/Silent_Hill_Pyramid_Head_Amp.wsz/.WSZ"
+    },
+});
+webamp.renderWhenReady(document.getElementById('winamp-container'));
+</script>
+    </div>
+</body>
+</html>
