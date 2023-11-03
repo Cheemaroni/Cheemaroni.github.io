@@ -6,7 +6,7 @@
     <link rel="icon" href="hehe meow.png" type="image/png">
     <link rel="stylesheet" href="music.css">
     <title>Gabs Gaming Palace</title>
-    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <meta charset="utf-8" />
 </head>
 <body>
     <script src="music.js"></script> 
@@ -51,11 +51,13 @@
             </ul>
         </div>
     </nav>
+    <div id="app" style="height: 100vh">
+    </div>
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
     <div style="width:40px; height:40px; position:absolute; bottom:0px; left:0px;">
         <div id="winamp-container"></div>
         <script>
     const Winamp = window.Webamp;
-    // All configuration options are optional.
     const webamp = new Webamp({
     initialTracks: [
         {
@@ -64,6 +66,7 @@
                 title: "Hero of My Story",
             },
             url: "Cheemaroni.github.io/Hero of My Story 3style3 - Bladee.mp3",
+            duration: 5.322286
         }, 
         { 
             metaData: {
@@ -432,10 +435,10 @@
         },
         ],
     initialSkin: {
-        url: "https://skins.webamp.org/skin/940652f10b828b3d4985103a79794e0a/Silent_Hill_Pyramid_Head_Amp.wsz/.WSZ"
+        url: "Cheemaroni.github.io/Silent_Hill_Pyramid_Head_Amp.wsz"
     },
 });
-webamp.renderWhenReady(document.getElementById('winamp-container'));
+webamp.renderWhenReady(document.getElementById('app'));
 </script>
     </div>
 </body>
