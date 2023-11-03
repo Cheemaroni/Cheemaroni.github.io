@@ -10,7 +10,7 @@ const webamp = new Webamp({
         artist: "Bladee",
         title: "Hero of My Story",
       },
-      url: "path/to/mp3/llama-2.91.mp3"
+      url: "Cheemaroni.github.io/Hero of My Story 3style3 - Bladee.mp3"
   }],
   initialSkin: {
     url: "Cheemaroni.github.io/Silent_Hill_Pyramid_Head_Amp.wsz"
@@ -23,7 +23,7 @@ webamp.renderWhenReady(document.getElementById('winamp-container'));
 const track = {
   // Either `url` or `blob` must be specified
   // Note: This URL must be served the with correct CORs headers.
-  url: 'https://example.com/song.mp3',
+  url: 'Cheemaroni.github.io/Hero of My Story 3style3 - Bladee.mp3',
   blob: dataBlob,
 
   // Optional. Name to be used until ID3 tags can be resolved.
