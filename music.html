@@ -55,6 +55,10 @@ const Winamp = window.Webamp;
 // All configuration options are optional.
 const webamp = new Webamp({
     // Optional.
+    initialSkin: {
+        url: "https://skins.webamp.org/skin/940652f10b828b3d4985103a79794e0a/Silent_Hill_Pyramid_Head_Amp.wsz/.WSZ"
+    },
+});
     initialTracks: [
         {
             metaData: {
@@ -429,10 +433,6 @@ const webamp = new Webamp({
             url: "URL TO SONG .mp3",
         },
       ],
-    initialSkin: {
-        url: "https://skins.webamp.org/skin/940652f10b828b3d4985103a79794e0a/Silent_Hill_Pyramid_Head_Amp.wsz/.WSZ"
-    },
-});
 webamp.renderWhenReady(document.getElementById('winamp-container'));
 </script>
     </div>
