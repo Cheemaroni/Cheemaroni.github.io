@@ -6,11 +6,7 @@
     <link rel="icon" href="hehe meow.png" type="image/png">
     <link rel="stylesheet" href="music.css">
     <title>Gabs Gaming Palace</title>
-    <meta charset="utf-8" />
 </head>
-<body>
-    <script src="music.js"></script> 
-</body>
 <body>
     <header>
         <h2 style="text-align: center; font-size: 45px; color: #5B0000;">Music Hangout!</h2>
@@ -51,15 +47,14 @@
             </ul>
         </div>
     </nav>
-    <div id="app" style="height: 100vh">
-    </div>
+    <div id="app" style="height: 100vh"></div>
     <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
-    <div style="width:40px; height:40px; position:absolute; bottom:0px; left:0px;">
+    <div style="width: 40px; height: 40px; position: absolute; bottom: 0; left: 0;">
         <div id="winamp-container"></div>
         <script>
-    const Winamp = window.Webamp;
-    const webamp = new Webamp({
-    initialTracks: [
+            const Winamp = window.Webamp;
+            const webamp = new Webamp({
+                initialTracks: [
         {
             metaData: {
                 artist: "Bladee",
@@ -68,8 +63,6 @@
             url: "Cheemaroni.github.io/Hero of My Story 3style3 - Bladee.mp3",
             duration: 5.322286
         }, 
-    ]
-    [
         { 
             metaData: {
                 artist: "Bladee",
@@ -90,7 +83,8 @@
                 title: "Wickr Man",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "Bladee",
                 title: "BBY",
@@ -110,7 +104,8 @@
                 title: "Plastic Surgery",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "Bladee",
                 title: "Who Goes There?",
@@ -130,7 +125,8 @@
                 title: "LOVE STORY",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "Bladee",
                 title: "ICARIUS 3REESTYLE",
@@ -150,7 +146,8 @@
                 title: "Still in Search of Sunshine",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "Thaiboy Digital",
                 title: "Yin & Yang",
@@ -170,7 +167,8 @@
                 title: "Peroxide",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "Drain Gang Archive",
                 title: "Cover Up",
@@ -190,7 +188,8 @@
                 title: "oaf1",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "oaf1, Lain",
                 title: "whatever it takes",
@@ -210,7 +209,8 @@
                 title: "i feel like a dog",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "19bonsai",
                 title: "sacboy advntr",
@@ -230,7 +230,8 @@
                 title: "ihonestlymightjustgiveup",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "David Shawty",
                 title: "Dacning on the Sidewalk Lights Flicker",
@@ -250,7 +251,8 @@
                 title: "Blue",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "Thouxanbanfauni",
                 title: "ULTRA VIOLET",
@@ -270,7 +272,8 @@
                 title: "PARADOX",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "Thouxanbanfauni",
                 title: "QUESTIONABLE MORTALITY",
@@ -290,7 +293,8 @@
                 title: "QUESTIONABLE MORALITY",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        }, 
+        {
             metaData: {
                 artist: "jnhygs",
                 title: "XTAYALIVE ",
@@ -310,13 +314,7 @@
                 title: "Title",
             },
             url: "URL TO SONG .mp3",
-        }, {
-            metaData: {
-                artist: "Artist",
-                title: "Title",
-            },
-            url: "URL TO SONG .mp3",
-        },
+        }, 
         {
             metaData: {
                 artist: "Artist",
@@ -330,7 +328,15 @@
                 title: "Title",
             },
             url: "URL TO SONG .mp3",
-        }, {
+        },
+        {
+            metaData: {
+                artist: "Artist",
+                title: "Title",
+            },
+            url: "URL TO SONG .mp3",
+        }, 
+        {
             metaData: {
                 artist: "Artist",
                 title: "Title",
@@ -436,12 +442,10 @@
             url: "URL TO SONG .mp3",
         },
         ],
-    initialSkin: {
-        url: "Cheemaroni.github.io/Silent_Hill_Pyramid_Head_Amp.wsz"
-    },
-});
-webamp.renderWhenReady(document.getElementById('app'));
-</script>
+    });
+            webamp.renderWhenReady(document.getElementById('app'));
+        </script>
     </div>
+    <script src="music.js"></script>
 </body>
 </html>
