@@ -5,19 +5,14 @@
     <link rel="stylesheet" type="text/css" href="myroom.css">
 </head>
 <body>
-    <button id="start-button" onclick="startGame()">Start</button>
-    <canvas id="game-canvas" style="background-image: url('frontdoor.jpg');"></canvas> <!-- Set background image here -->
-    
-    <audio id="door-open-audio">
-        <source src="door-open.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
-    <audio id="door-close-audio">
-        <source src="door-close.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    
+    <div id="start-screen">
+        <button id="start-button" onclick="startGame()">Start</button>
+    </div>
+    <div id="game-screen">
+        <audio id="door-open-audio" src="door-open.mp3"></audio>
+        <audio id="door-close-audio" src="door-close.mp3"></audio>
+    </div>
+    <div id="text-overlay">You are in my room. I'm not here, but you still sense you aren't alone.</div>
     <script src="myroom.js"></script>
 </body>
 </html>
