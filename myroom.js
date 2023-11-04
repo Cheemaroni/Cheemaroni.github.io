@@ -14,7 +14,7 @@ function startGame() {
         doorCloseAudio.play();
 
         setTimeout(function () {
-            gameScreen.style.backgroundImage = "url('wideroom.jpg')";
+            gameScreen.style.backgroundImage = "url('Cheemaroni.github.io/wideroom.jpg')";
         }, 5000); 
     }, 5000); 
 }
