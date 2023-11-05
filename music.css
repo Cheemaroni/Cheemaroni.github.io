@@ -18,57 +18,51 @@ p {
     line-height: 1.5;
 }
 
-/* Style for the container */
 .icon-bar {
-    background-color: #0a0606; /* Background color of the icon bar */
-    text-align: left; /* Align icons and text to the left */
-    padding: 10px; /* Add padding around the icon bar */
-    position: fixed; /* Fixed position */
-    left: 0; /* Align to the left edge of the viewport */
-    top: 0; /* Align to the top edge of the viewport */
+    background-color: #0a0606; 
+    text-align: left; 
+    padding: 10px; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
 }
 
 
-/* Style for the container */
 .icon-bar {
-    background-color: #f9d5e1; /* Background color of the icon bar */
-    text-align: left; /* Align icons and text to the left */
-    padding: 10px; /* Add padding around the icon bar */
-    position: fixed; /* Fixed position */
-    left: 0; /* Align to the left edge of the viewport */
-    top: 0; /* Align to the top edge of the viewport */
+    background-color: #f9d5e1; 
+    text-align: left; 
+    padding: 10px; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
 }
 
-/* Style for the list */
 .icon-bar ul {
-    list-style-type: none; /* Remove default list bullets */
-    padding: 0; /* Remove default padding */
+    list-style-type: none; 
+    padding: 0; 
 }
 
-/* Custom border styles */
 .border {
-    border: 2px solid #f9d5e1; /* Border style (2px width, white color) */
-    border-radius: 10px; /* Rounded border corners (adjust as needed) */
-    padding: 10px; /* Padding around the icon bar */
+    border: 2px solid #f9d5e1; 
+    border-radius: 10px; 
+    padding: 10px; 
 }
 
-/* Style for each icon and text */
+
 .icon-bar li {
-    display: flex; /* Use flexbox to align items vertically */
-    align-items: center; /* Vertically center items */
-    margin-bottom: 10px; /* Add spacing between icons and text */
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px; 
 }
 
-/* Style for the icon images */
 .icon-bar img {
-    width: 30px; /* Adjust the width of the icons */
-    height: 30px; /* Adjust the height of the icons */
-    border-radius: 50%; /* Create rounded icons (optional) */ 
-    margin-right: 10px; /* Add spacing between icons and text */
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
 }
 
-/* Style for the text next to the icons */
 .icon-bar span {
-    color: maroon; /* Text color */
-    font-size: 14px; /* Font size */
+    color: maroon; 
+    font-size: 14px; 
 }
