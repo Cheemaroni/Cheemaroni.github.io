@@ -26,17 +26,24 @@
 </head>
 <body>
     <p>
-        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
-            <source src="Wii Party Soundtrack.mp3" type="audio/mpeg">
+        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;">
+            <source src="https://Cheemaroni.github.io/C418 Sweden Minecraft.mp3" type="audio/mpeg">
         </audio>
         <br>
         <script>
+            var audioSources = ["https://Cheemaroni.github.io/C418 Subwoofer Lullaby Minecraft.mp3", "https://Cheemaroni.github.io/C418 Dry Hands.mp3", "https://Cheemaroni.github.io/C418 Wet Hands.mp3", "https://Cheemaroni.github.io/C418 Living Mice Minecraft.mp3"]; // Add your song file names
             var loopLimit = 5;
             var loopCounter = 0;
-            document.getElementById('loop-limited').addEventListener('ended', function () {
+            var currentSourceIndex = 0;
+    
+            var audioElement = document.getElementById('loop-limited');
+    
+            audioElement.addEventListener('ended', function () {
                 if (loopCounter < loopLimit) {
                     this.currentTime = 0;
-                    this play();
+                    this.src = audioSources[currentSourceIndex];
+                    this.play();
+                    currentSourceIndex = (currentSourceIndex + 1) % audioSources.length;
                     loopCounter++;
                 }
             }, false);
