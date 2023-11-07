@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <link rel="icon" href="hehe meow.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabs Photography</title>
+    <link rel="stylesheet" href="photography.css">
+
+    <script>
+        window.onload = function () {
+            function incrementVisitorCount() {
+                if (localStorage.getItem('visitorCount')) {
+                    let count = parseInt(localStorage.getItem('visitorCount'));
+                    count++;
+                    localStorage.setItem('visitorCount', count);
+                } else {
+                    localStorage.setItem('visitorCount', 1);
+                }
+
+                const count = parseInt(localStorage.getItem('visitorCount'));
+                document.getElementById('visitorCount').textContent = count;
+            }
+            incrementVisitorCount();
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <audio id="loop-limited" controls autoplay style="width: 6em; height: 20px;" alt="Background Music">
+            <source src="Wii Party Soundtrack.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <script>
+            var loopLimit = 5;
+            var loopCounter = 0;
+            document.getElementById('loop-limited').addEventListener('ended', function () {
+                if (loopCounter < loopLimit) {
+                    this.currentTime = 0;
+                    this play();
+                    loopCounter++;
+                }
+            }, false);
+        </script>
+    </p>
+      <header>
+        <h1>Welcome to Gabs Photography</h1>
+    </header>
+    <nav>
+    <div class="icon-bar">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <img src="result.png" alt="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="moreaboutme.html">
+                    <img src="2479688_5686c.gif" alt="More About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <img src="picmix.com_1748564.png" alt="Contact Info">
+                    <span>Contact</span>
+                </a>
+            </li>
+            <li>
+                <a href="Gamelog.html">
+                    <img src="Kirby.gif" alt="Game Log">
+                    <span>Game Log</span>
+                </a>
+            </li>
+            <li>
+                <a href="music.html">
+                    <img src="kittybanjo.gif" alt="Music Hangout">
+                    <span>Music</span>
+                </a>
+            </li>
+            <li>
+                <a href="myroom.html">
+                    <img src="smiley.png" alt="My Room">
+                    <span>My Room</span>
+                </a>
+            </li>
+            <li>
+                <a href="photography.html">
+                    <img src="camcorder.png" alt="Photography">
+                    <span>Photography</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+    
+    <section class="intro">
+       <h2>Gabs Perspective.</h2>
+       <p>Hi! Here are some photos of places I've been to and just some photography I've done awhile back and present..</p>
+    </section>
+    
+    <div id="myModal" class="modal">
+  <span class="close-modal" onclick="closeModal()">&times;</span>
+  <img class="modal-image" id="modalImage">
+</div>
+
+   <div class="image-container">
+  <img src="IMG_0137.webp" class="image" onclick="openModal('IMG_0137.webp')">
+  <div class="image-text">This is a Great Egret I captured one morning while walking in my backyard. I recorded a video of this bird finding prey to eat, and what it does is slowly approach a dragonfly, waffle its neck and body, and then pounce to catch the fly. It was a pretty interesting sight.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0402.webp" class="image" onclick="openModal('IMG_0402.webp')">
+  <div class="image-text">A hunting position.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0345.webp" class="image" onclick="openModal('IMG_0345.webp')">
+  <div class="image-text">I caught some great photos of these two dragon flies.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0348.webp" class="image" onclick="openModal('IMG_0348.webp')">
+  <div class="image-text">I really love how in this one you get to see its lil face.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0352.webp" class="image" onclick="openModal('IMG_0352.webp')">
+  <div class="image-text">Two buds hanging out</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0358.webp" class="image" onclick="openModal('IMG_0358.webp')">
+  <div class="image-text">This was a lucky shot.I just wanted a picture of the flower but a cute little bee wanted some nectar at the same time.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0377.webp" class="image" onclick="openModal('IMG_0377.webp')">
+  <div class="image-text">I honestly don't know what type of species this is but when taking this the lizard ran up to me, stared at me, then went over to this branch. Pretty chill.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1101.webp" class="image" onclick="openModal('IMG_1101.webp')">
+  <div class="image-text">Here is one of my states invasive species. See these guys EVERYWHERE! But they can be very photogenic.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1867.webp" class="image" onclick="openModal('IMG_1867.webp')">
+  <div class="image-text">I really love this photo of a Muscovy Duck. This female seemed to be very interested in me taking her photo. I was really happy hheehe.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1866.webp" class="image" onclick="openModal('IMG_1866.webp')">
+  <div class="image-text">Shes gorgeoous.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2253.webp" class="image" onclick="openModal('IMG_2253.webp')">
+  <div class="image-text">One night, while walking my dog, I accidentally ran into a huge spider web and was lucky to find this spider weaving its web. I then spent the next hour trying to take photos of the entire spider.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2256.webp" class="image" onclick="openModal('IMG_2256.webp')">
+  <div class="image-text">A full body shot</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2259.webp" class="image" onclick="openModal('IMG_2259.webp')">
+  <div class="image-text">If you look closely you can see the spiders silk coming out as it spins its webbing.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2203.webp" class="image" onclick="openModal('IMG_2203.webp')">
+  <div class="image-text">On the same night I was also greeted by this toad. I wish I had a little wizard hat to put on him. I should get some.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0442.webp" class="image" onclick="openModal('IMG_0442.webp')">
+  <div class="image-text">Crow in lake eating some sort of nut.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0455.webp" class="image" onclick="openModal('IMG_0455.webp')">
+  <div class="image-text">A beautiful Blue Jay I caught looking for some grub.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0478.webp" class="image" onclick="openModal('IMG_0478.webp')">
+  <div class="image-text">I don't know the species but this lucky bird got a worm</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_0481.webp" class="image" onclick="openModal('IMG_0481.webp')">
+  <div class="image-text">Yum yum yuum</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1174.webp" class="image" onclick="openModal('IMG_1174.webp')">
+  <div class="image-text">My beautiful Daisy. This is an earlier photo of her, shes getting pretty old now but still so gorgeous.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1184.webp" class="image" onclick="openModal('IMG_1184.webp')">
+  <div class="image-text">Showing us her side profile.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1846.webp" class="image" onclick="openModal('IMG_1846.webp')">
+  <div class="image-text">My very handsome, adorable little Leo. He has slowly transformed into Garfield.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1216.webp" class="image" onclick="openModal('IMG_1216.webp')">
+  <div class="image-text">These next 10 photos were taken in the UK.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1217.webp" class="image" onclick="openModal('IMG_1217.webp')">
+  <div class="image-text">This was taken after I had left the station from the Heathrow airport to Hyde Park Corner. This is Statue of Duke of Wellington and some arch.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1221.webp" class="image" onclick="openModal('1221.webp')">
+  <div class="image-text">A closer image of the arch.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1227.webp" class="image" onclick="openModal('IMG_1227.webp')">
+  <div class="image-text">Began the walk through Hyde Park towards the Buckingham Palace. This cute lil fellow decided to smile and wave for the camera.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1232.webp" class="image" onclick="openModal('IMG_1232.webp')">
+  <div class="image-text">A wide view of how huge this park was.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1240.webp" class="image" onclick="openModal('IMG_1240.webp')">
+  <div class="image-text">A view of the Palace.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1265.webp" class="image" onclick="openModal('IMG_1265.webp')">
+  <div class="image-text">I don't know what this building is but I found it so mesmerizing, especially with the sunlight casting its this glow on it like this.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1268.webp" class="image" onclick="openModal('IMG_1268.webp')">
+  <div class="image-text">I really liked how these branches looked and whatever those balls are. I still wonder what type of tree that was.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1269.webp" class="image" onclick="openModal('IMG_1269.webp')">
+  <div class="image-text">Some street performer doing a silly trick while looking silly.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1272.webp" class="image" onclick="openModal('IMG_1272.webp')">
+  <div class="image-text">This arch was so beautifully made just had to take a photo.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1274.webp" class="image" onclick="openModal('IMG_1274.webp')">
+  <div class="image-text">This was taken near a outdoor mall somewhere in Israel.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1277.webp" class="image" onclick="openModal('IMG_1277.webp')">
+  <div class="image-text">This is "my" Israeli cat Juno. For the five times I've visted there was a stray that was so sweet and had the silliest meow. I wonder what shes up to now.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1642.webp" class="image" onclick="openModal('IMG_1642.webp')">
+  <div class="image-text">The Dead Sea</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1643.webp" class="image" onclick="openModal('IMG_1643.webp')">
+  <div class="image-text">Mountains near The Dead Sea</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1667.webp" class="image" onclick="openModal('IMG_1667.webp')">
+  <div class="image-text">Visited a cave in Palestine and found it cool to see all the graffiti on the ceilings.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1695.webp" class="image" onclick="openModal('IMG_1695.webp')">
+  <div class="image-text">Inside the Church of the Nativity in Bethlehem</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1697.webp" class="image" onclick="openModal('IMG_1697.webp')">
+  <div class="image-text">Past the Western Wall</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1698.webp" class="image" onclick="openModal('IMG_1698.webp')">
+  <div class="image-text">The Western Wall with The Dome of the Rock next to it.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1706.webp" class="image" onclick="openModal('IMG_1706.webp')">
+  <div class="image-text">The inside of the Tower of David.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1714.webp" class="image" onclick="openModal('IMG_1714.webp')">
+  <div class="image-text">Overhead view of an entry way to the markets.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_1722.webp" class="image" onclick="openModal('IMG_1722.webp')">
+  <div class="image-text">A little window inside one of the rooms in the Tower of David.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2505.webp" class="image" onclick="openModal('IMG_2505.webp')">
+  <div class="image-text">During my trip to Italy inside the Vatican museum.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2512.webp" class="image" onclick="openModal('IMG_2512.webp')">
+  <div class="image-text">Artwork on the ceilings. My neck hurt so much.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2533.webp" class="image" onclick="openModal('IMG_2533.webp')">
+  <div class="image-text">A gorgeous tile piece.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2539.webp" class="image" onclick="openModal('IMG_2539.webp')">
+  <div class="image-text">Overhead view of Rome.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2557.webp" class="image" onclick="openModal('IMG_2557.webp')">
+  <div class="image-text">This was such an incredible experience seeing such magnificent art.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2560.webp" class="image" onclick="openModal('IMG_2560.webp')">
+  <div class="image-text">I want this in my room.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2574.webp" class="image" onclick="openModal('IMG_2574.webp')">
+  <div class="image-text">bootiful</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2578.webp" class="image" onclick="openModal('IMG_2578.webp')">
+  <div class="image-text">Wish I got a better photo of this whole corridor but it was filled with these tapestry of maps.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2586.webp" class="image" onclick="openModal('IMG_2586.webp')">
+  <div class="image-text">THE TIME IT TOOK TO MAKE ALL OF THIS! MY GOD!</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2565.webp" class="image" onclick="openModal('IMG_2565.webp')">
+  <div class="image-text">So amazing my god.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2501.webp" class="image" onclick="openModal('IMG_2501.webp')">
+  <div class="image-text">These hallways were so so so soooo soo SOOO long. Jammed packed with people I felt like a sheep being herded from corridor to corridor.</div>
+</div>
+
+<div class="image-container">
+  <img src="IMG_2593.webp" class="image" onclick="openModal('IMG_2593.webp')">
+  <div class="image-text">So bigg. So much walking it took nearly three hours to get to the Sistine Chapels.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0013.webp" class="image" onclick="openModal('PICT0013.webp')">
+  <div class="image-text">This photo was taken during my visit to my partner's place, which is located in the more country area of the state I live in. Unfortunately. The area has abandoned houses and discarded furniture along the backroads.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0016.webp" class="image" onclick="openModal('PICT0016.webp')">
+  <div class="image-text">An abandoned house riddled with trash around the house and unkept lawn.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0018.webp" class="image" onclick="openModal('PICT0018.webp')">
+  <div class="image-text">An abandoned truck.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0021.webp" class="image" onclick="openModal('PICT0021.webp')">
+  <div class="image-text">There was another car left in a similar state around this one.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0023.webp" class="image" onclick="openModal('PICT0023.webp')">
+  <div class="image-text">Cute lil snail guy :3 loved this little dude.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0018.webp" class="image" onclick="openModal('PICT0018.webp')">
+  <div class="image-text">The clouds today were exceptionally large and seemed to blanket the sky. It was a good ride.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0129.webp" class="image" onclick="openModal('PICT0129.webp')">
+  <div class="image-text">It's quite common in my area to find large fields with power lines running through them. They should just put a huge walmart there honestly.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0135.webp" class="image" onclick="openModal('PICT0135.webp')">
+  <div class="image-text">I found this image both comforting and sad. The weathered wood, the children's playground tucked away in the back alley of a run down plaza. It felt both familiar and melancholic.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0146.webp" class="image" onclick="openModal('PICT0146.webp')">
+  <div class="image-text">The photo my preschools playyard.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0147.webp" class="image" onclick="openModal('PICT0147.webp')">
+  <div class="image-text">The entrance to the preschool.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0139.webp" class="image" onclick="openModal('PICT0139.webp')">
+  <div class="image-text">One of my favorite places to eat when given the chance. I miss it.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0018.webp" class="image" onclick="openModal('PICT0018.webp')">
+  <div class="image-text">I find it interesting how this used to be a bank. Now, the spot where you'd once deposit your checks through the tube is used for parking.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0152.webp" class="image" onclick="openModal('PICT0152.webp')">
+  <div class="image-text">Looks like someones was unlucky.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0018.webp" class="image" onclick="openModal('PICT0018.webp')">
+  <div class="image-text">Custom Text 2</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0018.webp" class="image" onclick="openModal('PICT0018.webp')">
+  <div class="image-text">Custom Text 2</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0155.webp" class="image" onclick="openModal('PICT0155.webp')">
+  <div class="image-text">I used to run through this little area after being picked up from my preschool by my sister. She would say there were spiders and alligators. I don't know why.</div>
+</div>
+
+<div class="image-container">
+  <img src="PICT0156.webp" class="image" onclick="openModal('PICT0156.webp')">
+  <div class="image-text">Some construction workers taking their afternoon map after having their lunch. Seems so peaceful to take a nap outside.</div>
+</div>
+
+<script src="photography.js"></script>
+
+
+<footer>Gabs Gaming Palace &copy;</footer>   
+</body>
+</html>
